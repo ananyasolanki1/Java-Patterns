@@ -9,7 +9,7 @@ public class DiamondPatt {
         //    * * *
         //      *
         
-        int n=100;
+        int n=3;
 
         for (int r=1; r<=n; r++) {
             for (int c=n-1; c>=r; c--) {

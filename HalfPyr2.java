@@ -6,8 +6,10 @@ public class HalfPyr2 {
         // **
         // *
 
-        for (int r=1; r<=4; r++) {
-            for (int c=4; c>=r; c--) {
+        int n = 4;  // input
+
+        for (int r = 1; r <= n; r++) {
+            for (int c = n; c >= r; c--) {
                 System.out.print("*");
             }
             System.out.println();

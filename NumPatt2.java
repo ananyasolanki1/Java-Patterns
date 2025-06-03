@@ -6,8 +6,10 @@ public class NumPatt2 {
         // 1 2
         // 1
 
-        for (int r=5; r>=1; r--) {
-            for (int c=1; c<=r; c++) {
+        int n = 5;
+
+        for (int r = n; r >= 1; r--) {
+            for (int c = 1; c <= r; c++) {
                 System.out.print(c + " ");
             }
             System.out.println();

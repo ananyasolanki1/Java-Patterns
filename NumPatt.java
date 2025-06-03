@@ -1,13 +1,15 @@
 public class NumPatt {
     public static void main(String[] args) {
         // 1
-        // 12
-        // 123
-        // 1234
-        // 12345
+        // 1 2
+        // 1 2 3
+        // 1 2 3 4
+        // 1 2 3 4 5
 
-        for (int r=1; r<=5; r++) {
-            for (int c=1; c<=r; c++) {
+        int n = 5;
+
+        for (int r = 1; r <= n; r++) {
+            for (int c = 1; c <= r; c++) {
                 System.out.print(c + " ");
             }
             System.out.println();

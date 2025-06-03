@@ -8,8 +8,10 @@ public class HalfPyr {
         int r;  // row
         int c;  // column
 
-        for (r=1; r<=4; r++) {
-            for (c=1; c<=r; c++) {
+        int n = 4;  // input
+
+        for (r = 1; r <= n; r++) {
+            for (c = 1; c <= r; c++) {
                 System.out.print("*");
             }
             System.out.println();

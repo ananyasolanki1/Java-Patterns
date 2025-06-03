@@ -5,11 +5,13 @@ public class NumsPatt {
         // 4 5 6
         // 7 8 9 10
         // 11 12 13 14 15
-        int cnt=0;
-        for (int r=1; r<=5; r++) {
-            for (int c=1; c<=r; c++) {
+
+        int n = 5;
+        int cnt = 0;
+        for (int r = 1; r <= n; r++) {
+            for (int c = 1; c <= r; c++) {
                 cnt = cnt + 1; 
-                System.out.print(cnt+" ");
+                System.out.print(cnt + " ");
             }
             System.out.println();
         }

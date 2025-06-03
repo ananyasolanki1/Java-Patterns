@@ -9,7 +9,9 @@ public class ButterflyPatt {
         // **    **
         // *      *
 
-        for (int r=1; r<=4; r++) {
+        int n = 4;   // input number. Can change this value
+
+        for (int r=1; r<=n; r++) {
             for (int c=1; c<=r; c++) {
                 System.out.print("*");
             }
@@ -24,7 +26,7 @@ public class ButterflyPatt {
             }
             System.out.println();
         }
-        for (int r=4; r>=1; r--) {
+        for (int r=n; r>=1; r--) {
             for (int c=1; c<=r; c++) {
                 System.out.print("*");
             }

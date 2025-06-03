@@ -5,11 +5,13 @@ public class HalfPry3 {
         //   ***
         //  ****   
 
-        for (int r=1; r<=4; r++) {
-            for (int c=1; c<=4-r; c++) {
+        int n = 4;
+
+        for (int r = 1; r <= n; r++) {
+            for (int c = 1; c <= n-r; c++) {
                 System.out.print(" ");
             }
-            for (int c=1; c<=r; c++) {      // loop2
+            for (int c = 1; c <= r; c++) {      
                 System.out.print("*");
             }
             System.out.println();
@@ -17,9 +19,3 @@ public class HalfPry3 {
 
     }
 }
-
-// if u remove loop2, u get-
-//    *
-//   * 
-//  * 
-// * 

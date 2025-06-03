@@ -6,11 +6,13 @@ public class NumPyr {
     //     4 4 4 4
     //    5 5 5 5 5
 
-    for (int r=1; r<=5; r++) {
-        for (int c=4; c>=r; c--){
+    int n = 5;
+
+    for (int r = 1; r <= n; r++) {
+        for (int c = 4; c >= r; c--){
             System.out.print(" ");
         }
-        for (int c=1; c<=r; c++) {
+        for (int c = 1; c <= r; c++) {
             System.out.print(r + " ");
         }
         System.out.println();
